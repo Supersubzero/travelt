@@ -1,0 +1,181 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Travel Guide</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+</head>
+<body>
+<div id="main" class="container-fluid bg1 ">
+	<nav class="navbar navbar-default">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		    
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		         <ul class="nav navbar-nav navbar-right ">
+                    <li >
+                    	<a href="#main">
+                    		<img src="departures.png">
+                    		<br>
+                    		Ticket AWAY
+                    	</a>
+                    </li>
+                    <li>
+                    	<a href="#Fish">
+                    		<img src="fish.png">
+                    		<br>
+                    		Fishing Camp
+                    	</a>
+                    </li>
+                    <li>
+                    	<a href="#aromas">
+                    		<img src="coffee-cup.png">
+                    		<br>
+                    		The Aromas
+                    	</a>
+                    </li>
+                    <li class="navfixborder profile-pic ">
+                    	<a href="#" class="navpic">
+                    		<i class="glyphicon glyphicon-user "></i> 
+                    	</a>
+                    </li>
+                </ul>
+		    </div>
+		  </div>
+	</nav>
+	<div class="header-sect-1 clearfix" >
+	    <h4 > A TRAVELS YEAR BOOK</h4>
+	    <P>Read Foder's reviews to find the best travel destinations, hotels and restaurants. Plan your trip online with Foder's. India bristel with a mind stirring mixed of landscape and cultural traditions. Your journey through this intoxicating country will blaze in your memory long after you've left its shores.</P>
+	</div>
+</div>
+
+<div id="Fish" class="container-fluid bg-2 text-center">
+
+	<div class="img-group">
+		<div class="img-box">
+			<img src="img1.jpg" alt="Paris">
+		</div>
+		<div class="img-box">
+			<img src="img2.jpg" alt="New York">
+		</div>
+		<div class="img-box">
+			<img src="img3.jpg" alt="San Francisco"> 
+		</div>
+	</div> 
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-md-6 clearfix">
+			<div class="menu">
+				<div class="menu-item">
+					<a href="#"><img title="soups" alt="soups" src="soup.png"></a>
+				</div>
+				<div class="menu-item">
+					<a href="#"><img title="Main Courses" alt="Main Courses" src="chicken.png"></a>
+				</div>
+				<div class="menu-item">
+					<a href="#"><img title="Side Dishes" alt="Side Dishes" src="dish.png"></a>
+				</div>
+			</div>
+			<br>
+			<div class="menu">
+				<div class="menu-item">
+					<a href="#"><img title="Salads" alt="Salads" src="salad.png"></a>
+				</div>
+				<div class="menu-item">
+					<a href="#"><img title="Fries" alt="Fries" src="fries.png"></a>
+				</div>
+				<div class="menu-item">
+					<a href="#"><img title="Desserts" alt="Desserts" src="dessert.png"></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<h3 class="hd">
+		  		<span>LOVE. FOOD.</span>
+		  		<br> 
+		  		<span>CHEFS. RECIPES &</span>
+		  		<br>
+		  		THE FISH IN SEA
+		  	</h3>
+		</div>
+	</div> 
+  	
+  </div>
+</div>
+
+<div id="aromas" class="container-fluid bg-3 text-center">
+  	<br>
+	<br>
+	<br>
+  	<h3> LETS WALK THE DISTANCE</h3><br>
+  	<h6>AND CHAT, CONNECT AND COFFEE OVER IT</h6>
+  	<br>
+  	<br>
+	<br>
+	<div class="social-btns">
+		<a class="btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+		<a class="btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+		<a class="btn-lg btn-gplus" type="button" role="button"><i class="fab fa-google-plus-g"></i></a>
+		<a class="btn-lg btn-li" type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
+	</div>
+  	<br>
+	<br>
+	<br>
+</div>
+<footer class="container-fluid bg-4 text-center">
+  <p>10, 3RD FLOOR, PHOENIX CRESCENT, RESTHOUSE ROAD, BANGLORE 560 001</p>
+  <P>PHONE: +91 80 40986191</P> 
+</footer>
+<script>
+	$(document).on('click','.navbar-collapse.in',function(e) {
+
+    if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
+        $(this).collapse('hide');
+    }
+
+});
+</script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+</body>
+</html>
