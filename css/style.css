@@ -218,12 +218,10 @@ p {
 	.header-sect-1 {
 		width: 100%;
 	}
-	.bg-1, .bg-3{
+	.bg-11, .bg-22,.bg-33{
 		height: auto;
 	}
-	.bg-2 {
-		height: 100vh;
-	}
+	
 	.img-group {
 		display: none;
 		margin-left: 0;
@@ -241,6 +239,6 @@ p {
 		width: 40px;
 	}
 	.navpic{
-		margin-left: 200px;
+		margin:auto;
 	}
 }
